@@ -4,7 +4,7 @@
 *不是所有的無線網卡都適用於基地台分享！部分無線網卡會發生無法開啟或用戶端斷線...等情況！！*<br />
 *由於是Batch，原始碼就可以執行囉！故就不發行於Release了*<br />
 <br />
-![螢幕擷取畫面 2022-11-17 232148](https://user-images.githubusercontent.com/46966555/202486431-dc13889d-0ea0-476f-a7cb-50bbccab7cfc.png)
+![螢幕擷取畫面 2022-11-17 232148](https://user-images.githubusercontent.com/46966555/202486431-dc13889d-0ea0-476f-a7cb-50bbccab7cfc.png)<br />
 <br />
 這隻程式採用Batch(批次檔)撰寫，有一部分的功能仍然需要使用者手動操作，但希望可以簡化一些命令列輸入的部分。<br />
 本程式目前有6個功能：<br />
@@ -29,6 +29,8 @@
 ### NEW! 停用Wi-Fi掃描功能(改進基地台穩定度)(V3版新增)
 Windows系統預設會定期掃描Wi-Fi，掃描時可能會造成連線不穩定<br />
 透過停用掃描可能可以改善連線穩定度(注意，記得使用Wi-Fi前記得開回去)<br />
+正確關閉掃描以Windows 11為例應該會看不到任何網路<br />
+![螢幕擷取畫面 2022-11-17 232532](https://user-images.githubusercontent.com/46966555/202487158-fed6f33d-4b70-4f53-8490-8d5ae787e4e3.png)<br />
 ***
 感謝這些網站為我撰寫指令提供了不少方便的建議<br />
 https://poychang.github.io/note-batch/#targetText=將命令提示字元,次(Batch%20file)檔。<br />
